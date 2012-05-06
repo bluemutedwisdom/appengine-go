@@ -1,0 +1,17 @@
+#!/bin/sh -ex
+
+SRC=/usr/local/src
+GAE_GO=/var/www/google_appengine
+
+# unpack google appengine
+NAME=go_appengine_sdk_linux
+unzip $SRC/${NAME}_*.zip -d $SRC; rm $SRC/${NAME}_*.zip
+mv -T $SRC/google_appengine $GAE_GO
+chown -R root:root $GAE_GO
+
+# tweak tkl-webcp
+sed -i "s|width: 520px;|width: 580px;|" /var/www/css/base.css
+
+# clean up
+rm -rf $SRC/*
+
