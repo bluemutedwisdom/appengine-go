@@ -1,0 +1,25 @@
+turnkey-appengine-go-12.0 (1) turnkey; urgency=low
+
+  * Initial public release of TurnKey Linux AppEngine Go.
+
+  * Includes TurnKey Web Control panel with useful information, references,
+    and link to offline documentation (convenience).
+
+  * Regenerates all secrets during installation / firstboot (security).
+
+  * Includes postfix MTA (bound to localhost) for sending of email from
+    google appengine. Also includes webmin postfix module for convenience.
+
+  * Major component versions
+
+    go_appengine_sdk_linux_386  1.6.5
+    google-appengine-docs       20120228
+
+    lighttpd                    1.4.28-2+squeeze1
+    postfix                     2.7.1-1+squeeze1
+
+  * Note: Please refer to turnkey-core's changelog for changes common to all
+    appliances. Here we only describe changes specific to this appliance.
+
+ -- Alon Swartz <alon@turnkeylinux.org>  Wed, 01 Aug 2012 08:00:00 +0200
+
