@@ -1,8 +1,3 @@
 #include <turnkey/base>
+#include <turnkey/appengine>
 
-lighttpd                 /* used to power appengine documentation */
-
-postfix                  /* support appengine email */
-webmin-postfix
-
-unzip
