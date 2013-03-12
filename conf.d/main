@@ -5,7 +5,8 @@ GAE_GO=/var/www/google_appengine
 
 # unpack google appengine
 NAME=go_appengine_sdk_linux
-unzip $SRC/${NAME}_*.zip -d $SRC; rm $SRC/${NAME}_*.zip
+unzip -q $SRC/${NAME}_*.zip -d $SRC
+rm $SRC/${NAME}_*.zip
 mv -T $SRC/google_appengine $GAE_GO
 chown -R root:root $GAE_GO
 

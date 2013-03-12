@@ -46,30 +46,24 @@
 
                     <h2>Resources and references</h2>
                     <ul>
-                        <li><a href="docs/appengine/docs/whatisgoogleappengine.html">What is Google AppEngine?</a> <a href="docs/appengine/whyappengine.html">Why should I use it?</a></li>
-                        <li><a href="docs/appengine/kb/index.html">Check out the FAQ</a>, <a href="docs/appengine/casestudies.html">case studies</a> and <a href="docs/appengine/articles/index.html">articles</a></li>
-
-                        <li><a
-                        href="http://www.turnkeylinux.org/appengine-go">TurnKey AppEngine Go release notes</a></li>
+                        <li><a href="https://developers.google.com/appengine/docs/whatisgoogleappengine">What is Google AppEngine?</a> <a href="https://developers.google.com/appengine/whyappengine">Why should I use it?</a></li>
+                        <li><a href="https://developers.google.com/appengine/kb/">Check out the FAQ</a>, <a href="https://cloud.google.com/customers/">case studies</a> and <a href="https://developers.google.com/appengine/articles/">articles</a></li>
+                        <li><a href="http://www.turnkeylinux.org/appengine-go">TurnKey AppEngine Go release notes</a></li>
                     </ul>
 
                 </div>
             </div>
-
             <div id="gae">
                 <div class="fragment-content">
-
                 <div class="icon"><img src="/images/youtube.png"/></div><br/>
                 <p><a href="http://www.youtube.com/watch?v=HQtLRqqB-Kk">Cuddle, A Go AppEngine Demo</a></p>
                 <p><a href="http://www.youtube.com/watch?v=2-pPAvqyluI">GoLang,
                 practical Go Programming</a></p>
                 <p><b>GoLang:</b> <a href="http://golang.org/">Overview</a>, <a href="http://golang.org/doc/">Documentation</a>, <a href="http://golang.org/ref/">References</a>, <a href="http://golang.org/help/">Help</a>
                 
-                <p><b>Local documentation:</b>
-                <a href="docs/appengine/docs/go/gettingstarted/index.html">
-                Getting started</a>, 
-                <a href="docs/appengine/docs/go/overview.html">
-                AppEngine Go overview</a></p>
+                <p><b>Online documentation:</b>
+                <a href="https://developers.google.com/appengine/docs/go/gettingstarted">Getting started</a>, 
+                <a href="https://developers.google.com/appengine/docs/go/overview">AppEngine Go overview</a></p>
 
 <h2>Demo applications</h2>
 
